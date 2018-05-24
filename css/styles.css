@@ -70,13 +70,17 @@ a:hover {
 /* Header and Footer
 --------------------------*/
 header, footer {
-  background: #2B2D42;
   color: #8D99AE;
 }
+
 /* header */
 header {
   padding-top: 50px;
   position: relative;
+  background: linear-gradient(rgba(43, 45, 66, 0.8),
+               rgba(43, 45, 66, 0.01)),
+               url(../images/header.jpg) no-repeat fixed;
+  background-size: cover;
 }
 
 .profile-img {
@@ -97,11 +101,19 @@ header h1, header h2 {
 /* footer */
 footer {
   text-align: center;
+  background: linear-gradient(rgba(43, 45, 66, 0.8),
+               rgba(43, 45, 66, 0.5)),
+               url(../images/footer.jpg) no-repeat fixed;
+  background-size: cover;
 }
 
 .contact-info a {
   padding: 10px;
   display: inline-block;
+}
+
+.icon-font-size {
+  font-size: 30px;
 }
 
 /* Navigation
@@ -125,7 +137,10 @@ nav a {
 /* Work Experience
 --------------------------*/
 .work {
-  background: #EDF2F4;
+  background: linear-gradient(rgba(8, 142, 185, 0.8),
+               rgba(8, 142, 185, 0.5)),
+               url(../images/experience.jpg) no-repeat fixed;
+  background-size: cover;
 }
 
 h3 ~ p {
@@ -143,7 +158,10 @@ h3 ~ p {
 /* Education
 --------------------------*/
 .education {
-  background: #8D99AE;
+  background: linear-gradient(rgba(8, 142, 185, 0.8),
+               rgba(8, 142, 185, 0.5)),
+               url(../images/education.jpg) no-repeat fixed;
+  background-size: cover;
 }
 
 p + h3 {
